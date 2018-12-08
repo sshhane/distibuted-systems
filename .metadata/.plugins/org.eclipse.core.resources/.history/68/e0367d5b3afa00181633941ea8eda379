@@ -1,0 +1,9 @@
+package ie.gmit.sw.model;
+
+import java.io.Serializable;
+
+public class Order implements Serializable{
+
+	
+	private int OrderId;
+}

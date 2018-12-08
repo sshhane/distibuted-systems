@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/generateOrder" xmlns:tns="http://www.example.org/generateOrder" elementFormDefault="qualified">
+
+	<element name ="Order" type="string">
+		<complexType>
+			<sequence>
+				<element name="rentalId" type="int"></element>
+				<element name="carId" type="string"></element>
+				<element name="date" type="Date"></element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

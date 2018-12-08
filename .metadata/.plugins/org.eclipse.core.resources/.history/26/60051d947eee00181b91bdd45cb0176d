@@ -1,0 +1,14 @@
+package ie.gmit.sw.CarHireRest;
+
+import java.rmi.Naming;
+import java.rmi.RemoteException;
+
+public class rmi  {
+
+	private CarHireService chs;
+	
+	public void getData() throws RemoteException{
+		chs = (CarHireService) Naming.lookup("");
+		System.out.println("Connected..");
+	}
+}

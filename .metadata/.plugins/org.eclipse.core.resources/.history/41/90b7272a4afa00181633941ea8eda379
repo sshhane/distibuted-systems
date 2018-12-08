@@ -1,0 +1,48 @@
+package ie.gmit.sw.CarHireRest;
+
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import com.mysql.cj.xdevapi.Statement;
+
+public class CarServiceImpl extends UnicastRemoteObject implements CarHireService{
+
+	private static final long serialVersionUID = 1L;
+	
+	private Connection connection;
+	private Statement statement;
+
+	protected CarServiceImpl() throws RemoteException, SQLException {
+		super();
+		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/car?useSSL=false", "root", "");
+		}
+
+	@Override
+	public String Create(String s) throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Order> Read() throws RemoteException, SQLException {
+		System.out.println("read");
+		
+		statement = connection.createStatement();
+	}
+
+	@Override
+	public String Update(String s) throws RemoteException {
+		System.out.println("update");
+		return null;
+	}
+
+	@Override
+	public String Delete(String s) throws RemoteException {
+		System.out.println("delete");
+		return null;
+	}
+
+}

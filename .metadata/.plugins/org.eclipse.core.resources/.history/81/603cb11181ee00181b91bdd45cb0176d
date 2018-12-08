@@ -1,0 +1,33 @@
+package ie.gmit.sw.Rest;
+
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import ie.gmit.sw.CarHireRest.CarHireService;
+import ie.gmit.sw.CarHireRest.rmi;
+
+/**
+ * Root resource (exposed at "myresource" path)
+ */
+@Path("myresource")
+public class MyResource {
+
+    
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    @Path("/{value}")
+    public String getIt(@PathParam("value") String value) throws Exception {
+    	
+    	new rmi().getData();
+    	System.out.println("Hello my name is Shane..");
+        return "Got it!";
+    }
+}

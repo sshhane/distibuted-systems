@@ -1,0 +1,41 @@
+package ie.gmit.sw.Rest;
+
+import java.rmi.Naming;
+
+import javax.inject.Singleton;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import ie.gmit.sw.CarHireRest.RMI;
+
+@Singleton
+@Path("/myresource")
+public class MyResource {
+
+    
+	public MyResource() {
+		System.out.println("Hello again..");
+	}
+	
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    @Path("/{value}")
+    public String getIt(@PathParam("value") String s) throws Exception {
+    	
+//    	RMI r = new RMI();
+    	String output = " my name is " + s;
+    	System.out.println(output);
+    	
+//    	databaseService ds;
+//    	
+//    	ds = (DatabaseService) Naming.lookup("rmi://127.0.0.1099/databse");
+//    	
+//    	ds.read();
+    	
+    	
+        return output;
+    }
+}
