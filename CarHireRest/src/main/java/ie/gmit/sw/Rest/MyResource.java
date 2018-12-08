@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Singleton;
+import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
@@ -47,12 +48,12 @@ public class MyResource {
     }
     
     @GET
-    @Produces(MediaType.TEXT_PLAIN)
+    @Consumes(MediaType.TEXT_PLAIN)
     @Path("/update/{customerIdUpt}")
-    public String update(@PathParam("customerIdUpt") int customerIdUpt) throws Exception {
+    public void update(@PathParam("customerIdUpt") int customerIdUpt) throws Exception {
     	
     	RMI r = new RMI();
-    	String u = r.update();    	
+    	String u = r.update();
 //    	Order t = list.get(0);
 //		int testId = t.getCarId();
     	
@@ -60,6 +61,5 @@ public class MyResource {
     	
 //        return Response.status(201).entity("works").build();
 //    	return order.getRentalId();
-    	return u;
     }
 }

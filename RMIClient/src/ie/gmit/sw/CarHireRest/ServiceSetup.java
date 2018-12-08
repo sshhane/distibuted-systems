@@ -6,7 +6,7 @@ import java.rmi.registry.LocateRegistry;
 
 public class ServiceSetup {
 	
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception{
 		
 		CarHireService ds = new CarServiceImpl();
 		
