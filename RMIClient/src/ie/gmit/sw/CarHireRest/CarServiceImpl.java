@@ -39,7 +39,6 @@ public class CarServiceImpl extends UnicastRemoteObject implements CarHireServic
 		
 		List<Order> list = new ArrayList<Order>();
 		
-		
 		String select = "select * from rentals";
 		
 		ResultSet reset = statement.executeQuery(select);
@@ -57,24 +56,25 @@ public class CarServiceImpl extends UnicastRemoteObject implements CarHireServic
 			
 			list.add(o);
 			
-//			System.out.println("testing java");
-//			System.out.println(rentalId);
-			
 		}
 		
-//		for (int i = 0; i < list.size(); i++) {
-//			System.out.println(list.get(i));
-//		}
-//		Order t = list.get(0);
-//		int testId = t.getCarId();
-//		System.out.println("test");
 		return list;
 	}
 
 	@Override
-	public String Update(String s) throws RemoteException {
+	public String Update(int customerIdUpt, int carIdUpt) throws RemoteException, SQLException {
 		System.out.println("update");
-		return null;
+		
+		statement = connection.createStatement();
+		
+		
+        String update = "UPDATE car_hire SET carId = " + carIdUpt + " WHERE rentalId = " + customerIdUpt + ";";
+        
+        int countUpdated = statement.executeUpdate(update);
+
+        ResultSet rset = statement.executeQuery(update);
+        
+		return "it was changed";
 	}
 
 	@Override

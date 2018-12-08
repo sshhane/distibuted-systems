@@ -22,6 +22,12 @@ public class RMI  {
 		
 		return chs.Read();
 	}
+	
+	public String update() throws Exception {
+//		chs.Update(1, 1);
+		String confirmation = "chs.Update(1, 999)";
+		return confirmation;
+	}
 
 }
 

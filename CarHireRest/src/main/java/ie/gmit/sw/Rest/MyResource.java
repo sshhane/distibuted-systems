@@ -26,18 +26,15 @@ public class MyResource {
 	}
 	
     @GET
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.APPLICATION_XML)
     @Path("/{value}")
-    public int getIt(@PathParam("value") int n) throws Exception {
+    public List<Order> getIt(@PathParam("value") int n) throws Exception {
     	
     	RMI r = new RMI();
     	
     	List<Order> list = r.getData();
     	
     	Order order = list.get(n);
-    	
-    	System.out.println("cId: ");
-    	System.out.println(order.getCustomerId());
     	
 //    	Order t = list.get(0);
 //		int testId = t.getCarId();
@@ -46,6 +43,23 @@ public class MyResource {
     	
 //        return Response.status(201).entity("works").build();
 //    	return order.getRentalId();
-    	return order.getRentalId();
+    	return list;
+    }
+    
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    @Path("/update/{customerIdUpt}")
+    public String update(@PathParam("customerIdUpt") int customerIdUpt) throws Exception {
+    	
+    	RMI r = new RMI();
+    	String u = r.update();    	
+//    	Order t = list.get(0);
+//		int testId = t.getCarId();
+    	
+//    	System.out.print(r.getData());
+    	
+//        return Response.status(201).entity("works").build();
+//    	return order.getRentalId();
+    	return u;
     }
 }
