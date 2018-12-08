@@ -59,10 +59,6 @@ public class Order implements Serializable{
     @XmlElement(required = true)
     @XmlSchemaType(name = "date")
     protected XMLGregorianCalendar date;
-    
-    public Order() {
-    	
-    }
 
     /**
      * Gets the value of the rentalId property.

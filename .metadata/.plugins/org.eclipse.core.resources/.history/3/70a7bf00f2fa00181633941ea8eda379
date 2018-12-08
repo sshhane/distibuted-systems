@@ -28,15 +28,16 @@ public class MyResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     @Path("/{value}")
-    public int getIt(@PathParam("value") int n) throws Exception {
+    public Response getIt(@PathParam("value") int n) throws Exception {
     	
     	RMI r = new RMI();
+//    	String output = " my name is " + s;
+//    	System.out.println(output);
     	
     	List<Order> list = r.getData();
     	
     	Order order = list.get(n);
     	
-    	System.out.println("cId: ");
     	System.out.println(order.getCustomerId());
     	
 //    	Order t = list.get(0);
@@ -44,8 +45,6 @@ public class MyResource {
     	
 //    	System.out.print(r.getData());
     	
-//        return Response.status(201).entity("works").build();
-//    	return order.getRentalId();
-    	return order.getRentalId();
+        return Response.status(201).entity("works").build();
     }
 }

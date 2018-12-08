@@ -8,6 +8,8 @@
 
 package ie.gmit.sw.model;
 
+import java.io.Serializable;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -47,16 +49,20 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "date"
 })
 @XmlRootElement(name = "Order")
-public class Order {
+public class Order implements Serializable{
 
     protected int rentalId;
     @XmlElement(required = true)
-    protected String carId;
+    protected int carId;
     @XmlElement(required = true)
-    protected String customerId;
+    protected int customerId;
     @XmlElement(required = true)
     @XmlSchemaType(name = "date")
     protected XMLGregorianCalendar date;
+    
+    public Order() {
+    	
+    }
 
     /**
      * Gets the value of the rentalId property.
@@ -82,7 +88,7 @@ public class Order {
      *     {@link String }
      *     
      */
-    public String getCarId() {
+    public int getCarId() {
         return carId;
     }
 
@@ -94,7 +100,7 @@ public class Order {
      *     {@link String }
      *     
      */
-    public void setCarId(String value) {
+    public void setCarId(int value) {
         this.carId = value;
     }
 
@@ -106,7 +112,7 @@ public class Order {
      *     {@link String }
      *     
      */
-    public String getCustomerId() {
+    public int getCustomerId() {
         return customerId;
     }
 
@@ -118,7 +124,7 @@ public class Order {
      *     {@link String }
      *     
      */
-    public void setCustomerId(String value) {
+    public void setCustomerId(int value) {
         this.customerId = value;
     }
 

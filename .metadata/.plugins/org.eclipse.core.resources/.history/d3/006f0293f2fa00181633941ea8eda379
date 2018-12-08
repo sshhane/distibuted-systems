@@ -34,7 +34,7 @@ public class MyResource {
     	
     	List<Order> list = r.getData();
     	
-    	Order order = list.get(n);
+    	Order order = list.get(0);
     	
     	System.out.println("cId: ");
     	System.out.println(order.getCustomerId());

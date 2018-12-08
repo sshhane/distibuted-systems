@@ -55,10 +55,8 @@ public class CarServiceImpl extends UnicastRemoteObject implements CarHireServic
 //			o.setCustomerId(customerId);
 			o.setCarId(carId);
 			
-			list.add(o);
-			
-//			System.out.println("testing java");
-//			System.out.println(rentalId);
+			System.out.println("testing java");
+			System.out.println(rentalId);
 			
 		}
 		

@@ -21,6 +21,8 @@ public class RMI  {
 	public List<Order> getData() throws Exception{
 		
 		return chs.Read();
+		
+//		System.out.println(list.get(0));
 	}
 
 }
