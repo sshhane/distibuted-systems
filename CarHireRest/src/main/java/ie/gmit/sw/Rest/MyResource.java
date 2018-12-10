@@ -4,8 +4,10 @@ import java.util.List;
 
 import javax.inject.Singleton;
 import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
@@ -35,7 +37,7 @@ public class MyResource {
 	// Read
     @GET
     @Produces(MediaType.APPLICATION_XML)
-    @Path("/read/{value}")
+    @Path("read/{value}")
     public Order getIt(@PathParam("value") int n) throws Exception {
     	RMI r = new RMI();
     	return r.getData(n);
@@ -50,23 +52,20 @@ public class MyResource {
     }
     
     // Update
-    @POST
-    @Consumes(MediaType.TEXT_PLAIN)
-    @Path("/update/{customerIdUpt}")
-    public int update(@PathParam("customerIdUpt") int customerIdUpt) throws Exception {
-    	
+    @PUT
+    @Consumes(MediaType.APPLICATION_XML)
+    @Path("update")
+    public void update(Order o) throws Exception {
     	RMI r = new RMI();
-    	int carIdUpt = 999;
-    	r.update(1, carIdUpt);
-//    	Order t = list.get(0);
-//		int testId = t.getCarId();
-    	
-//    	System.out.print(r.getData());
-    	
-//        return Response.status(201).entity("works").build();
-    	return customerIdUpt;
+    	r.update(o);
     }
     
     // Delete
-    
+    @DELETE
+    @Consumes(MediaType.APPLICATION_XML)
+    @Path("delete")
+    public void delete(Order o) throws Exception {
+    	RMI r = new RMI();
+    	r.delete(o);
+    }
 }

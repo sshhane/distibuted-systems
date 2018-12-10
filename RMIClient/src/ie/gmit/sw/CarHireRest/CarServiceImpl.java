@@ -74,27 +74,35 @@ public class CarServiceImpl extends UnicastRemoteObject implements CarHireServic
 	}
 
 	@Override
-	public String Update(int customerIdUpt, int carIdUpt) throws Exception {
+	public void Update(Order o) throws Exception {
 		System.out.println("update");
+		
+		int rentalId = o.getRentalId();
+		int carId = o.getCarId();
 		
 		statement = connection.createStatement();
 		
-        String update = "UPDATE Rentals SET carId = " + carIdUpt + " WHERE rentalId = " + customerIdUpt + ";";
+        String update = "UPDATE Rentals SET carId = " + carId + " WHERE rentalId = " + rentalId + ";";
         
         int countUpdated = statement.executeUpdate(update);
 
         ResultSet rset = statement.executeQuery(update);
         
-		return "it was changed";
 	}
 
 	@Override
-	public String Delete(String s) throws RemoteException, SQLException {
+	public void Delete(Order o) throws RemoteException, SQLException {
 		System.out.println("delete");
+		
+		int rentalId = o.getRentalId();
+		
 		statement = connection.createStatement();
 		
-		 String sqlDelete = "DELETE FROM Rentals where id>=3000 and id<4000";
-		return null;
+		 String sqlDelete = "DELETE FROM Rentals where rentalId = " + rentalId + ";";
+		 
+		 System.out.println(sqlDelete);
+		 
+		 statement.executeUpdate(sqlDelete);
 	}
 
 }

@@ -19,6 +19,7 @@ public class RMI  {
 		System.out.println("Connected..");
 	}
 	
+	// read
 	public Order getData(int n) throws Exception{
 		List<Order> list = chs.Read();
     	Order o = list.get(n);
@@ -29,13 +30,19 @@ public class RMI  {
 		return chs.Read();
 	}
 	
-	public void update(int customerIdUpt, int carIdUpt) throws Exception {
-		chs.Update(customerIdUpt, carIdUpt);
+	// update
+	public void update(Order o) throws Exception {
+		chs.Update(o);
 	}
 
+	// create
 	public void setData(Order o) throws RemoteException, SQLException {
-		System.out.println("2");
 		chs.Create(o);
+	}
+	
+	// Delete
+	public void delete(Order o) throws RemoteException, SQLException {
+		chs.Delete(o);
 	}
 }
 
