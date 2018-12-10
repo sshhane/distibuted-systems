@@ -41,65 +41,6 @@ public class MainController {
 		
 		return "viewRental";
 	}
-	/*
-	@RequestMapping(value = "/createVehicle", method = RequestMethod.GET)
-	public String createVehicleGET(Model model, @ModelAttribute("vehicle") Vehicle vehicle) {	
-		
-		model.addAttribute("vehicle", vehicle);
-		
-		return "createVehicle";
-	}
-	
-	@RequestMapping(value = "/createVehicle", method = RequestMethod.POST)
-	public String createVehiclePOST(@Valid @ModelAttribute("vehicle") Vehicle vehicle) {	
-		vehicleService.createVehicle(vehicle);
-		
-		return "redirect:vehicleList";
-	}
-	
-	@RequestMapping(value = "/updateVehicle", method = RequestMethod.GET)
-	public String updateVehicleGET(Model model, @ModelAttribute("vehicle") Vehicle vehicle) {	
-		
-		List<Vehicle> vehicles = vehicleService.getAllVehicles();
-		Map<Integer, String> vehicleList = new HashMap<Integer, String>();
-		
-		for (Vehicle v : vehicles) {
-			vehicleList.put(v.getVehicleId(), v.getRegistrationNumber());
-		}
-		
-		model.addAttribute("vehicle", vehicle);
-		model.addAttribute("vehicleList", vehicleList);
-		
-		return "updateVehicle";
-	}
-	
-	@RequestMapping(value = "/updateVehicle", method = RequestMethod.POST)
-	public String updateVehiclePOST(@Valid @ModelAttribute("vehicle") Vehicle vehicle) {	
-		vehicleService.updateVehicle(vehicle);
-		return "redirect:vehicleList";
-	}
-	
-	@RequestMapping(value = "/deleteVehicle", method = RequestMethod.GET)
-	public String deleteVehicleGET(Model model, @ModelAttribute("vehicle") Vehicle vehicle) {		
-		
-		List<Vehicle> vehicles = vehicleService.getAllVehicles();
-		Map<Integer, String> vehicleList = new HashMap<Integer, String>();
-		
-		for (Vehicle v : vehicles) {
-			vehicleList.put(v.getVehicleId(), v.getRegistrationNumber());
-		}
-		
-		model.addAttribute("vehicle", vehicle);
-		model.addAttribute("vehicleList", vehicleList);
-		
-		return "deleteVehicle";
-	}
-	
-	@RequestMapping(value = "/deleteVehicle", method = RequestMethod.POST)
-	public String deleteVehiclePOST(@Valid @ModelAttribute("vehicle") Vehicle vehicle) {	
-		vehicleService.deleteVehicle(vehicle);
-		return "redirect:vehicleList";
-	}
-	*/
+
 }
 

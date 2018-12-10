@@ -17,13 +17,7 @@
 			<th>Customer ID</th>
 			<th>Date</th>
 		</tr>
-		
-<%-- 			<tr>
-				<td>${Order.rentalId}</td>
-				<td>${Order.carId}</td>
-				<td>${Order.customerId}</td>
-				<td>${Order.date}</td>
-			</tr> --%>
+	
 
 			<c:forEach items="${orders}" var="order">
 			<tr>
