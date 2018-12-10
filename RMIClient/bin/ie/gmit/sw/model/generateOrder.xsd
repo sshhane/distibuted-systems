@@ -5,10 +5,12 @@
 		<complexType>
 			<sequence>
 				<element name="rentalId" type="int"></element>
-				<element name="carId" type="string"></element>
-				<element name="customerId" type="string"></element>
+				<element name="carId" type="int"></element>
+				<element name="customerId" type="int"></element>
 				<element name="date" type="date"></element>
 			</sequence>
 		</complexType>
 	</element>
 </schema>
+
+

@@ -1,7 +1,5 @@
 package ie.gmit.sw.Rest;
 
-import java.rmi.Naming;
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Singleton;
@@ -11,14 +9,12 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
 
-import ie.gmit.sw.CarHireRest.CarHireService;
 import ie.gmit.sw.CarHireRest.RMI;
 import ie.gmit.sw.model.Order;
 
 @Singleton
-@Path("/myresource")
+@Path("myresource")
 public class MyResource {
 
     
@@ -28,15 +24,15 @@ public class MyResource {
 	
     @GET
     @Produces(MediaType.APPLICATION_XML)
-    @Path("/{value}")
-    public List<Order> getIt(@PathParam("value") int n) throws Exception {
+    @Path("/read/{value}")
+    public Order getIt(@PathParam("value") int n) throws Exception {
     	
     	RMI r = new RMI();
     	
-    	List<Order> list = r.getData();
-    	
-    	Order order = list.get(n);
-    	
+//    	List<Order> list = r.getData();
+//    	
+//    	Order order = list.get(n);
+//    	
 //    	Order t = list.get(0);
 //		int testId = t.getCarId();
     	
@@ -44,22 +40,34 @@ public class MyResource {
     	
 //        return Response.status(201).entity("works").build();
 //    	return order.getRentalId();
-    	return list;
+    	return r.getData(n);
+    }
+    
+    @GET
+    @Produces(MediaType.APPLICATION_XML)
+    @Path("read")
+    public List<Order> orserread() throws Exception{
+    	
+    	RMI r = new RMI();
+    	
+    	return r.getData();
+    	
     }
     
     @GET
     @Consumes(MediaType.TEXT_PLAIN)
     @Path("/update/{customerIdUpt}")
-    public void update(@PathParam("customerIdUpt") int customerIdUpt) throws Exception {
+    public int update(@PathParam("customerIdUpt") int customerIdUpt) throws Exception {
     	
     	RMI r = new RMI();
-    	String u = r.update();
+    	int carIdUpt = 999;
+    	r.update(1, carIdUpt);
 //    	Order t = list.get(0);
 //		int testId = t.getCarId();
     	
 //    	System.out.print(r.getData());
     	
 //        return Response.status(201).entity("works").build();
-//    	return order.getRentalId();
+    	return customerIdUpt;
     }
 }

@@ -19,5 +19,5 @@ public interface CarHireService extends Remote{
 	public String Update(int customerIdUpt, int carIdUpt) throws Exception;
 	
 	// delete hire 
-	public String Delete(String s) throws RemoteException;
+	public String Delete(String s) throws RemoteException, SQLException;
 }

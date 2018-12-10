@@ -9,6 +9,7 @@
 package ie.gmit.sw.model;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -16,7 +17,6 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
-import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
@@ -51,20 +51,36 @@ import javax.xml.datatype.XMLGregorianCalendar;
 @XmlRootElement(name = "Order")
 public class Order implements Serializable{
 
-    protected int rentalId;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	protected int rentalId;
     @XmlElement(required = true)
     protected int carId;
     @XmlElement(required = true)
     protected int customerId;
     @XmlElement(required = true)
     @XmlSchemaType(name = "date")
-    protected XMLGregorianCalendar date;
+    protected Date date;
     
     public Order() {
     	
     }
+    
 
-    /**
+
+    public Order(int rentalId, int carId, int customerId, Date date) {
+		super();
+		this.rentalId = rentalId;
+		this.carId = carId;
+		this.customerId = customerId;
+		this.date = date;
+	}
+
+
+
+	/**
      * Gets the value of the rentalId property.
      * 
      */
@@ -133,10 +149,10 @@ public class Order implements Serializable{
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link Date }
      *     
      */
-    public XMLGregorianCalendar getDate() {
+    public Date getDate() {
         return date;
     }
 
@@ -145,10 +161,10 @@ public class Order implements Serializable{
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link Date }
      *     
      */
-    public void setDate(XMLGregorianCalendar value) {
+    public void setDate(Date value) {
         this.date = value;
     }
 

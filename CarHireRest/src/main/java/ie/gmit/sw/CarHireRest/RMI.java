@@ -18,15 +18,14 @@ public class RMI  {
 		System.out.println("Connected..");
 	}
 	
-	public List<Order> getData() throws Exception{
-		
-		return chs.Read();
+	public Order getData(int n) throws Exception{
+		List<Order> list = chs.Read();
+    	Order o = list.get(n);
+		return o;
 	}
 	
-	public String update() throws Exception {
-//		chs.Update(1, 1);
-		String confirmation = chs.Update(0, 0);
-		return confirmation;
+	public void update(int customerIdUpt, int carIdUpt) throws Exception {
+		chs.Update(customerIdUpt, carIdUpt);
 	}
 
 }
