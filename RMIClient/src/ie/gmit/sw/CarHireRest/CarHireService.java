@@ -10,7 +10,7 @@ import ie.gmit.sw.model.Order;
 public interface CarHireService extends Remote{
 
 	// create hire
-	public String Create(String s) throws RemoteException;
+	public void Create(Order o) throws RemoteException, SQLException;
 	
 	// read all hire
 	public List<Order> Read() throws RemoteException, Exception; 

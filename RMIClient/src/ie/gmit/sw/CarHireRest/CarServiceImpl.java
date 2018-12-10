@@ -25,9 +25,25 @@ public class CarServiceImpl extends UnicastRemoteObject implements CarHireServic
 		}
 
 	@Override
-	public String Create(String s) throws RemoteException {
-		// TODO Auto-generated method stub
-		return null;
+	public void Create(Order o) throws RemoteException, SQLException {
+		System.out.println("sql");
+		statement = connection.createStatement();
+		
+		int rentalId = o.getRentalId();
+		int carId = o.getCarId();
+		int customerId = o.getCustomerId();
+//		Date date = o.getDate();
+		
+		String sqlInsert = "insert into Rentals values(" + rentalId + ", " + carId + ", " + customerId + ", curdate());";
+		
+		System.out.println(sqlInsert);
+		
+		statement.execute(sqlInsert);
+//		int countInserted = statement.executeUpdate(sqlInsert);
+//		ResultSet reset = statement.executeQuery(sqlInsert);
+		
+//		countInserted = statement.executeUpdate(sqlInsert);
+
 	}
 
 	@Override
@@ -49,11 +65,6 @@ public class CarServiceImpl extends UnicastRemoteObject implements CarHireServic
 			Date date = reset.getDate("Date");
 			
 			Order o = new Order(rentalId, carId, customerId, date);
-			
-			
-//			o.setRentalId(rentalId);
-////			o.setCustomerId(customerId);
-//			o.setCarId(carId);
 			
 			list.add(o);
 			

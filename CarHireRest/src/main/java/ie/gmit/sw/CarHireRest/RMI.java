@@ -4,6 +4,7 @@ import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,9 +25,17 @@ public class RMI  {
 		return o;
 	}
 	
+	public List<Order> getData() throws Exception{
+		return chs.Read();
+	}
+	
 	public void update(int customerIdUpt, int carIdUpt) throws Exception {
 		chs.Update(customerIdUpt, carIdUpt);
 	}
 
+	public void setData(Order o) throws RemoteException, SQLException {
+		System.out.println("2");
+		chs.Create(o);
+	}
 }
 

@@ -2,6 +2,7 @@ package ie.gmit.sw.CarHireRest;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
+import java.sql.SQLException;
 import java.util.List;
 
 import ie.gmit.sw.model.Order;
@@ -9,7 +10,7 @@ import ie.gmit.sw.model.Order;
 public interface CarHireService extends Remote{
 
 	// create hire
-	public String Create(String s) throws RemoteException;
+	public void Create(Order o) throws RemoteException, SQLException;
 	
 	// read all hire
 	public List<Order> Read() throws RemoteException, Exception; 
@@ -18,5 +19,6 @@ public interface CarHireService extends Remote{
 	public String Update(int customerIdUpt, int carIdUpt) throws Exception;
 	
 	// delete hire 
-	public String Delete(String s) throws RemoteException;
+	public String Delete(String s) throws RemoteException, SQLException;
+
 }
