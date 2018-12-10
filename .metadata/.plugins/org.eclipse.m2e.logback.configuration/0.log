@@ -3483,3 +3483,329 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2018-12-10 22:19:16,348 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
 2018-12-10 22:19:21,568 [Worker-31: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
 2018-12-10 22:19:21,568 [Worker-31: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2018-12-10 22:21:04,990 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:21:04,990 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:21:04,990 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:21:04,992 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:21:04,992 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:21:13,509 [Worker-37: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
+2018-12-10 22:21:13,509 [Worker-37: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-12-10 22:21:15,486 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:21:15,486 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:21:15,488 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:21:15,491 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:21:15,491 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:21:22,496 [Worker-37: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
+2018-12-10 22:21:22,496 [Worker-37: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2018-12-10 22:22:51,337 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:22:51,339 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:22:51,343 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:22:51,347 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:22:51,347 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:25:02,711 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:25:02,712 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:25:02,713 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:25:02,714 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:25:02,714 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:25:14,389 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:25:14,389 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:25:14,389 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:25:14,391 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:25:14,391 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:25:23,689 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:25:23,690 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:25:23,691 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:25:23,693 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:25:23,693 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:25:24,874 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:25:24,874 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:25:24,875 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:25:24,876 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:25:24,876 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:25:36,473 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:25:36,474 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:25:36,474 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:25:36,476 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:25:36,476 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:25:48,240 [Worker-41: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
+2018-12-10 22:25:48,241 [Worker-41: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-12-10 22:25:50,300 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:25:50,300 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:25:50,300 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:25:50,301 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:25:50,301 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:25:55,763 [Worker-32: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
+2018-12-10 22:25:55,763 [Worker-32: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2018-12-10 22:26:41,597 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:26:41,598 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:26:41,598 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:26:41,600 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:26:41,600 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:29:09,828 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:29:09,829 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:29:09,831 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:29:09,832 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:29:09,832 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:29:18,141 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:29:18,142 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:29:18,143 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:29:18,144 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:29:18,144 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:29:19,298 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:29:19,298 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:29:19,299 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:29:19,300 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:29:19,300 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:29:28,007 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:29:28,007 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:29:28,008 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:29:28,009 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:29:28,009 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:29:39,645 [Worker-31: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
+2018-12-10 22:29:39,645 [Worker-31: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-12-10 22:29:41,615 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:29:41,615 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:29:41,616 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:29:41,617 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:29:41,617 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:29:50,923 [Worker-38: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
+2018-12-10 22:29:50,923 [Worker-38: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2018-12-10 22:32:10,264 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:32:10,265 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:32:10,266 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:32:10,268 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:32:10,268 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:35:17,094 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:35:17,094 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:35:17,094 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:35:17,096 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:35:17,096 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:35:34,968 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:35:34,969 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:35:34,970 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:35:34,972 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:35:34,972 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:35:37,549 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:35:37,549 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:35:37,550 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:35:37,551 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:35:37,551 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:36:46,254 [Worker-37: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
+2018-12-10 22:36:46,255 [Worker-37: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-12-10 22:36:48,562 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:36:48,562 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:36:48,563 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:36:48,564 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:36:48,564 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:36:57,666 [Worker-39: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
+2018-12-10 22:36:57,666 [Worker-39: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2018-12-10 22:38:29,558 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:38:29,558 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:38:29,561 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:38:29,562 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:38:29,562 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:38:43,447 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:38:43,448 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:38:43,449 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:38:43,451 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:38:43,451 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:40:48,743 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:40:48,745 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:40:48,746 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:40:48,749 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:40:48,749 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:41:37,171 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:41:37,171 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:41:37,172 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:41:37,174 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:41:37,174 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:41:56,154 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:41:56,155 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:41:56,156 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:41:56,157 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:41:56,158 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:42:22,372 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:42:22,373 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:42:22,374 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:42:22,375 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:42:22,376 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:42:41,226 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:42:41,226 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:42:41,227 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:42:41,229 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:42:41,229 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:43:13,487 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:43:13,487 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:43:13,489 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:43:13,490 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:43:13,490 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:44:22,112 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:44:22,113 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:44:22,114 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:44:22,115 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:44:22,115 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:44:24,397 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:44:24,397 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:44:24,399 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:44:24,401 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:44:24,401 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:44:39,131 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:44:39,131 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:44:39,132 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:44:39,133 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:44:39,134 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:44:51,897 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:44:51,898 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:44:51,899 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:44:51,900 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:44:51,900 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:47:04,895 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:47:04,896 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:47:04,897 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:47:04,898 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:47:04,898 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:47:11,087 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:47:11,088 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:47:11,088 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:47:11,089 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:47:11,089 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:47:28,057 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:47:28,058 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:47:28,059 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:47:28,060 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:47:28,060 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:47:46,078 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:47:46,079 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:47:46,080 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:47:46,082 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:47:46,082 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:48:21,296 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:48:21,296 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:48:21,297 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:48:21,298 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:48:21,299 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:48:30,827 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:48:30,828 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:48:30,829 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:48:30,830 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:48:30,830 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:48:43,462 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:48:43,462 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:48:43,463 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:48:43,464 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:48:43,464 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:49:00,341 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:49:00,341 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:49:00,343 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:49:00,344 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:49:00,345 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:49:10,505 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:49:10,505 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:49:10,505 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:49:10,506 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:49:10,507 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:49:35,962 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:49:35,963 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:49:35,964 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:49:35,965 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:49:35,965 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:51:52,618 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:51:52,619 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:51:52,619 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:51:52,620 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:51:52,621 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:52:05,291 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:52:05,292 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:52:05,292 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:52:05,293 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:52:05,293 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:52:40,976 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:52:40,977 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:52:40,977 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:52:40,978 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:52:40,978 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:52:53,082 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:52:53,082 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:52:53,082 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:52:53,083 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:52:53,083 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:53:12,386 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:53:12,386 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:53:12,387 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:53:12,388 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:53:12,388 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:54:55,905 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:54:55,905 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:54:55,906 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:54:55,907 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:54:55,907 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:55:08,390 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:55:08,390 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:55:08,391 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:55:08,392 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:55:08,393 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:55:14,802 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:55:14,802 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:55:14,803 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:55:14,804 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:55:14,805 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:56:01,141 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:56:01,142 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:56:01,142 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:56:01,143 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:56:01,143 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:56:41,871 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:56:41,871 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:56:41,872 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:56:41,873 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:56:41,873 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:57:02,417 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:57:02,417 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:57:02,418 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:57:02,422 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:57:02,422 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:58:01,507 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:58:01,508 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:58:01,509 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:58:01,510 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:58:01,510 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:58:30,930 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:58:30,930 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:58:30,931 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:58:30,932 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:58:30,932 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:59:41,058 [Worker-40: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
+2018-12-10 22:59:41,059 [Worker-40: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-12-10 22:59:43,179 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:59:43,179 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 22:59:43,180 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 22:59:43,180 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 22:59:43,181 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 22:59:54,209 [Worker-34: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
+2018-12-10 22:59:54,209 [Worker-34: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2018-12-10 23:02:08,865 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 23:02:08,866 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 23:02:08,867 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 23:02:08,868 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 23:02:08,868 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 23:02:26,334 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 23:02:26,335 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 23:02:26,336 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 23:02:26,337 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 23:02:26,337 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 23:03:43,932 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 23:03:43,933 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 23:03:43,934 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 23:03:43,935 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 23:03:43,935 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 23:04:31,305 [Worker-31: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
+2018-12-10 23:04:31,306 [Worker-31: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-12-10 23:04:46,729 [Worker-40: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
+2018-12-10 23:04:46,729 [Worker-40: Launching Executing clean in _Users_shanedaniels_programing_year4_distributedSys_project-workspace_carBookingWebClient.zip_expanded_carBookingWebClient] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-12-10 23:04:48,564 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 23:04:48,564 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-10 23:04:48,564 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-10 23:04:48,565 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-10 23:04:48,565 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient/src/test/resources
+2018-12-10 23:04:59,151 [Worker-38: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/shanedaniels/programing/year4/distributedSys/project-workspace/carBookingWebClient.zip_expanded/carBookingWebClient
+2018-12-10 23:04:59,151 [Worker-38: Launching carBookingWebClient (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile

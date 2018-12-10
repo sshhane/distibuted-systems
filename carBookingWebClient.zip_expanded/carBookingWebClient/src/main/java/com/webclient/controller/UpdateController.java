@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.webclient.http.httpRequests;
-import com.webclient.models.Order;
+
+import ie.gmit.sw.model.Order;
 
 @Controller
 public class UpdateController {

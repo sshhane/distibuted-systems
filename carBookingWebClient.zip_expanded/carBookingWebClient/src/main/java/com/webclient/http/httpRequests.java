@@ -19,7 +19,7 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import javax.xml.transform.stream.StreamSource;
 
-import com.webclient.models.Order;
+import ie.gmit.sw.model.Order;
 
 public class httpRequests {
 

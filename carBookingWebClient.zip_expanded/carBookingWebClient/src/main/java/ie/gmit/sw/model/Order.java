@@ -6,7 +6,7 @@
 //
 
 
-package com.webclient.models;
+package ie.gmit.sw.model;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -44,6 +44,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
     "rentalId",
+    
     "carId",
     "customerId",
     "date"
@@ -55,14 +56,12 @@ public class Order implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	@XmlElement(namespace = "http://ds.sw.gmit.ie/models/")
-
 	protected int rentalId;
-    @XmlElement(namespace = "http://ds.sw.gmit.ie/models/", required = true)
+    @XmlElement(required = true)
     protected int carId;
-    @XmlElement(namespace = "http://ds.sw.gmit.ie/models/", required = true)
+    @XmlElement(required = true)
     protected int customerId;
-    @XmlElement(namespace = "http://ds.sw.gmit.ie/models/", required = true)
+    @XmlElement(required = true)
     @XmlSchemaType(name = "date")
     protected Date date;
     
@@ -70,7 +69,7 @@ public class Order implements Serializable{
     	
     }
     
-    
+
 
     public Order(int rentalId, int carId, int customerId, Date date) {
 		super();
@@ -171,5 +170,3 @@ public class Order implements Serializable{
     }
 
 }
-
-
