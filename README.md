@@ -1,5 +1,7 @@
 # distibuted-systems
 
+<img width="911" alt="screenshot 2018-12-10 at 23 49 18" src="https://user-images.githubusercontent.com/14262715/49768985-44118580-fcd6-11e8-9b49-8164fd01ab15.png">
+
 ## Requirements
 ### (A)Simple Web Client
 A web client for the user to interact with
