@@ -19,4 +19,4 @@ A remote interface  called Database Service should  expose  remote  methods whic
 I created a simple database to test the RMI and REST applications
 
 ### RESTful Web Service
-The service is run on an Apache Tomcat server, it has Create, Read, Update and Delete functionality.
+The service is run on an Apache Tomcat server, it has Create, Read, Update and Delete functionality. I used postman to test these functions.
