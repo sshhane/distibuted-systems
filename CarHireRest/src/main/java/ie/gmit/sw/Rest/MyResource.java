@@ -19,6 +19,8 @@ import ie.gmit.sw.model.Order;
 @Singleton
 @Path("myresource")
 public class MyResource {
+	
+//	http://www.ntu.edu.sg/home/ehchua/programming/java/jdbc_basic.html
 
     
 	public MyResource() {

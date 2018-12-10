@@ -25,4 +25,8 @@
     <fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
     <fullyQualifiedTypeName name="ie.gmit.sw.model.Order"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.POST"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.PUT"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.DELETE"/>
+    <fullyQualifiedTypeName name="com.webclient.models.Order"/>
 </qualifiedTypeNameHistroy>
