@@ -52,6 +52,8 @@ import javax.xml.bind.annotation.XmlType;
 public class Order implements Serializable{
 
     /**
+	 * Generated from above xsd
+	 * this is the rental object
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;

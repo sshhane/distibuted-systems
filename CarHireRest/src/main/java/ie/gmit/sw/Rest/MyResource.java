@@ -32,11 +32,12 @@ public class MyResource {
     @Consumes(MediaType.APPLICATION_XML)
     @Path("insert")
     public void insert(Order o) throws Exception {
-		RMI r = new RMI();
-    	r.setData(o);
+		RMI r = new RMI(); // make new RMI
+    	r.setData(o); // set order o as a new order in the db
     }
 	
 	// Read
+	// gets data at 'value' index in db
     @GET
     @Produces(MediaType.APPLICATION_XML)
     @Path("read/{value}")
@@ -45,6 +46,7 @@ public class MyResource {
     	return r.getData(n);
     }
     
+    // returns all of the table as a List
     @GET
     @Produces(MediaType.APPLICATION_XML)
     @Path("read")

@@ -15,7 +15,7 @@ public class RMI  {
 	private CarHireService chs;
 	
 	public RMI() throws MalformedURLException, RemoteException, NotBoundException {
-		chs = (CarHireService) Naming.lookup("rmi://127.0.0.1:1099/databaseService");
+		chs = (CarHireService) Naming.lookup("rmi://127.0.0.1:1099/databaseService"); // port where database is 
 		System.out.println("Connected..");
 	}
 	
